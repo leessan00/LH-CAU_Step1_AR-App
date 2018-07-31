@@ -1,0 +1,37 @@
+sceneSetups:
+- path: Assets/Main_Scene.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/Modern UI Pack/Scenes/Demo.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/DialogExTest.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/DialogTest.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/ExternalStorageTest.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/GalleryPickTest.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/PinchSwipeTest.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/PluginTest.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/SensorTest.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/SettingsTest1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/SettingsTest2.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FantomPlugin/Demo/Scenes/SpeechRecognizerTest.unity
+  isLoaded: 0
+  isActive: 0

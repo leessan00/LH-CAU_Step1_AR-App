@@ -1,0 +1,331 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-nostdlib
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
+-r:C:/Users/leessan0/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/leessan0/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll
+-r:C:/Users/leessan0/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_1_0
+-define:UNITY_2018_1
+-define:UNITY_2018
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_POST_PROCESSING_STACK_V2
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+"Assets/Additional Scripts/GetData.cs"
+"Assets/Additional Scripts/GetData_by_ID_Date.cs"
+"Assets/Additional Scripts/GetData_by_ID_Date_02.cs"
+"Assets/Additional Scripts/GetGPS.cs"
+Assets/FantomPlugin/Demo/Scripts/AndroidSettingsTest.cs
+Assets/FantomPlugin/Demo/Scripts/AndroidSettingsTest2.cs
+Assets/FantomPlugin/Demo/Scripts/CustomDialogTest.cs
+Assets/FantomPlugin/Demo/Scripts/DemoSwitcher.cs
+Assets/FantomPlugin/Demo/Scripts/DeviceCredentialsTest.cs
+Assets/FantomPlugin/Demo/Scripts/DynamicTest.cs
+Assets/FantomPlugin/Demo/Scripts/ExternalStorageTest.cs
+Assets/FantomPlugin/Demo/Scripts/ExternalStorageTest2.cs
+Assets/FantomPlugin/Demo/Scripts/GalleryPickTest.cs
+Assets/FantomPlugin/Demo/Scripts/GalleryPickTest2.cs
+Assets/FantomPlugin/Demo/Scripts/PluginTest.cs
+Assets/FantomPlugin/Demo/Scripts/PluginTest2.cs
+Assets/FantomPlugin/Demo/Scripts/PluginTest3.cs
+Assets/FantomPlugin/Demo/Scripts/SensorTest.cs
+Assets/FantomPlugin/Demo/Scripts/SpeechRecognizerTest.cs
+Assets/FantomPlugin/Demo/Scripts/SpeechRecognizerTest2.cs
+Assets/FantomPlugin/Demo/Scripts/SpeechRecognizerTest3.cs
+Assets/FantomPlugin/Demo/Scripts/TextEditTest.cs
+Assets/FantomPlugin/Demo/Scripts/TextEditTest2.cs
+Assets/FantomPlugin/Demo/Scripts/TextToSpeechTest.cs
+Assets/FantomPlugin/Demo/Scripts/TextToSpeechTest2.cs
+Assets/FantomPlugin/Demo/Scripts/TextToSpeechTest3.cs
+Assets/FantomPlugin/Demo/Scripts/VolumeUI.cs
+Assets/FantomPlugin/FantomLib/Scripts/Camera/SmoothFollow3.cs
+Assets/FantomPlugin/FantomLib/Scripts/Graphics/AndroidColor.cs
+Assets/FantomPlugin/FantomLib/Scripts/Graphics/Screenshot.cs
+Assets/FantomPlugin/FantomLib/Scripts/Graphics/XColor.cs
+Assets/FantomPlugin/FantomLib/Scripts/Input/LongClickEventTrigger.cs
+Assets/FantomPlugin/FantomLib/Scripts/Input/LongClickInput.cs
+Assets/FantomPlugin/FantomLib/Scripts/Input/LongKeyInput.cs
+Assets/FantomPlugin/FantomLib/Scripts/Input/PinchInput.cs
+Assets/FantomPlugin/FantomLib/Scripts/Input/PinchToDistance.cs
+Assets/FantomPlugin/FantomLib/Scripts/Input/PinchToScale.cs
+Assets/FantomPlugin/FantomLib/Scripts/Input/SwipeInput.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/AndroidPlugin.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/AndroidPluginRelease.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/AlphaNumericTextDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/CustomDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/DatePickerController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/DialogItemParameter.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/MultiChoiceDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/MultiLineTextDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/NumericTextDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/OKDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/OKWithCheckBoxDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/PasswordTextDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/SavedCheckedBehaviour.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/SavedCheckedSwitcher.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/SelectDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/SingleChoiceDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/SingleLineTextDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/SliderDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/SpeechRecognizerDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/SwitchDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/TimePickerController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/ToastController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/VolumeSliderDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/YesNoDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Dialogs/YesNoWithCheckBoxDialogController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/ActionURIOnThisPackageBase.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/AndroidActionController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/AppInstallCheckController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/ApplicationDetailsSettingsController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/BatteryStatusController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/BluetoothSettingController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/DeviceCredentialsController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/DialerController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/GalleryPickController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/HardVolumeController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/HardVolumeControllerWithToast.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/IgnoreBackgroundDataRestrictionsSettingsController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/MailerController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/ManageOverlayPermissionController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/ManageWriteController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/MarketSearchController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/MediaScannerController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/NotificationController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/OrientationStatusController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/PermissionCheckController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/QRCodeScannerController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/SendTextController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/SpeechRecognizerController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/StorageLoadTextController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/StorageSaveTextController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/TextToSpeechController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/VibratorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/WebSearchController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Functions/WifiSettingController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/AccelerometerSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/AndroidSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/AndroidSensorIntController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/GameRotationVectorSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/GeomagneticRotationVectorSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/GravitySensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/GyroscopeSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/HeartBeatController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/HeartRateController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/LightSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/LinearAccelerationSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/LowLatencyOffbodyDetectController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/MagneticFieldSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/MotionDetectController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/OrientationSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/PressureSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/ProximitySensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/RotationVectorSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/SensorControllerBase.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/SignificantMotionController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/StationaryDetectController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/StepCounterSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/Module/Sensors/StepDetectorSensorController.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/AndroidLocale.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/AppExitWithKey.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/AppExitWithToast.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/ILocalizable.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/LocalizableBehaviour.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/LocalizeLanguageChanger.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/LocalizeString.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/LocalizeStringResource.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/Param.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/SceneLoadWithKey.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/SingletonBehaviour.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/XDebug.cs
+Assets/FantomPlugin/FantomLib/Scripts/System/XPlayerPrefs.cs
+Assets/FantomPlugin/FantomLib/Scripts/Tool/ObjectArrangeTool.cs
+Assets/FantomPlugin/FantomLib/Scripts/UI/LanguageDropdown.cs
+Assets/FantomPlugin/FantomLib/Scripts/UI/LocalizeText.cs
+Assets/FantomPlugin/FantomLib/Scripts/UI/ProgressImageFill.cs
+"Assets/Modern UI Pack/Scripts/CustomDropdown.cs"
+"Assets/Modern UI Pack/Scripts/CustomInputField.cs"
+"Assets/Modern UI Pack/Scripts/DemoHamburgerMenu.cs"
+"Assets/Modern UI Pack/Scripts/DemoManager.cs"
+"Assets/Modern UI Pack/Scripts/DemoPanelAnim.cs"
+"Assets/Modern UI Pack/Scripts/DropdownItem.cs"
+"Assets/Modern UI Pack/Scripts/LaunchURL.cs"
+"Assets/Modern UI Pack/Scripts/NotificationExample.cs"
+"Assets/Modern UI Pack/Scripts/PBFilled.cs"
+"Assets/Modern UI Pack/Scripts/ProgressBar.cs"
+"Assets/Modern UI Pack/Scripts/RadialSlider.cs"
+"Assets/Modern UI Pack/Scripts/RatingSystem.cs"
+"Assets/Modern UI Pack/Scripts/SwitchAnim.cs"
+"Assets/Modern UI Pack/Scripts/ToggleAnim.cs"
+Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs
+Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs
+-lib:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity"
